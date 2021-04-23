@@ -1,3 +1,4 @@
+//kommentar 
 let mainbody = document.getElementById('main-body')
 let page0 = document.getElementById('pages').children.item(0)
 let page1 = document.getElementById('pages').children.item(1)
