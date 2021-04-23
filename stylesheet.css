@@ -1,0 +1,248 @@
+@import url('http://fonts.cdnfonts.com/css/sf-atarian-system');
+
+*{
+	
+	font-family: 'Segeoe UI', sans-serif;
+	color: #666666;
+}
+
+			.case2-heading{
+				color: white;
+			}
+			.article{
+				margin-left: 50px;
+				margin-right: 50px;
+			}
+			.fc{
+				display: flex;
+				justify-content: center;
+			}			
+			.opgave{
+				background:gray;
+				min-height:40vh;
+			}
+			.opgave1{
+				background-color: black;
+				
+			}
+			.opgave2{
+				background-color: white;
+				
+			}
+			.gc-case1-body{
+				display: grid;
+				grid-template-columns: 3fr 2fr;
+				color:#A8ABAF;
+			}
+			.gc-case1-body-left{
+				display: grid;
+				grid-template-columns: 1fr 2fr 1fr;
+			}
+			.gc-case1-img{
+				display: flex;
+				justify-content: center;
+				grid-column:2/3;
+				margin-top:30px;
+				margin-bottom:30px;
+			}
+			.fb-pictures{
+				width:300px;
+
+			}
+			.fb-body-comments{
+				background-color:#242526;
+				
+			}
+			.fb-comments{
+				background-color:#3A3B3C;
+				
+				border-radius: 30%;
+
+				width:100%;
+			}
+			.fb-profile-picture{				
+				border-radius: 100%;
+				width:50px;
+				height:50px;
+			}
+			.gc-case1-body-right{
+				display: grid;
+				grid-template-columns: 1fr 10fr;
+				column-gap:10px;
+				row-gap:17px;
+				margin:5px 5px 5px 5px;
+			}
+			
+			.page0 {
+						
+			}
+			.page1 {
+								
+			}
+			.page1 .opgave{
+				border:4px solid blue;
+
+			}
+
+			#pages{
+				display:none;
+			}
+			#titles{
+				display:none;
+			}
+
+			body{
+				margin: 0px;
+				background-color:#859A9C;
+			}
+			nav{
+				align:center;
+			}
+			h1{
+				margin-left: 20px;
+				margin: 10px 0px 10px 20px;
+				font-family:SF Atarian System;
+				font-family: 'SF Atarian System Extended', sans-serif;
+			}
+			h2{
+				margin:20px;
+			}
+			p{
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			#header{
+				color:black;
+				width: 100%;
+				margin: 0px;
+				
+			}
+			#site-title{
+				color:black;
+				font-size:40px;
+			}
+			#button0{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			#button1{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			#button2{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			#button3{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			#button4{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			#button5{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			#button6{
+				color:black;
+				border: 2px solid black;
+				font-size:20px;
+				width:100%;
+				text-align: left;
+			}
+			.gc-body{
+				display: grid;
+				grid-template-columns: 5fr 15fr;
+			}
+			.gc-body-right{
+				display: grid;
+				grid-template-columns: 3fr 1fr;
+				grid-templates-row: 100px 100px;
+			}
+			.gc-codemenu{
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				justify-content:center;
+				align-items:center;
+			}
+			.box{
+				color:black;
+				border: 1px solid black;
+			}
+			.body-left{
+				background-color: #F1F4F5;
+			}
+			.body-main-text{
+				background-color: #F1F4F5;
+			}
+			.body-title{
+				background-color: #D5DEDF;
+				grid-column:1/3;
+				align-items:center;
+			}
+			.body-right-menu{
+				background-color: #F1F4F5;
+			}
+			.codemenu-box{
+				border: 2px solid black;
+				border-radius:15%;
+				width: 90%;
+				margin: 0 auto;
+				background-color: #B0C6C8;
+				
+			}
+			.codemenu-title{
+				grid-column: 1/3;
+				
+			}
+			.codemenu-title-style{
+				font-size:30px;
+				margin: 15px 0px 5px 20px;
+			}
+			.codemenu-divider{
+				background-color: black;
+				border-color:black;
+			}
+			.picture{
+				width: 70%;
+				height: 156.51px;
+				margin-top:20px;
+				margin-bottom:20px;
+				border: 2px solid black;
+				border-radius:15%;
+			}
+			.pictureframe{
+				display: flex;
+				justify-content: center;
+				
+			}
+			.input-style{
+				height: 2em;
+				width: 80%;
+				margin-left: 0;
+			}
+			.codemenu-text{
+				margin-top:0.4em;
+				font-size:1em;
+
+			}
